@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors())
 app.use("/api/v1", mainRouter);
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3002;
 
 const start = async () => {
 
