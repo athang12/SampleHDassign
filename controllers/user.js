@@ -136,7 +136,7 @@ const register = async (req, res) => {
         from: `from highwaydeliteassignment@gmail.com`, // Sender address
         to: email, // List of recipients
         subject: 'OTP for Verification', // Subject line
-        text: `Your OTP for verification is: ${otp}`, // Plain text body
+        text: `OTP for Athang's Highway Delite Assignment \n Your OTP for verification is: ${otp}`, // Plain text body
         html: `<b>Your OTP for verification is:</b> ${otp}`, // HTML body
       });
   
