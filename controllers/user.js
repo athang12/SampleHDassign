@@ -110,7 +110,7 @@ const register = async (req, res) => {
       };
 
       const otp = generateOTP();
-      await delay(5000);
+      await delay(4000);
       console.log(otp)
       const person = new User({
         name: username,
